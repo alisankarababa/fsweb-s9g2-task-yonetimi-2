@@ -35,34 +35,25 @@
 
 /* TASK */
 .task {
-  padding: 1.5rem;
-  background-color: #fff;
-  border-radius: 5px;
-  line-height: 1.5;
-  margin-top: 1rem;
-  box-shadow: 0 4px 5px 0 rgb(0 0 0 / 10%);
+
+  @apply p-6 bg-white rounded-[5px] mt-4 leading-normal shadow-task;
 }
 
 .task h3 {
-  font-size: 18px;
-  color: #c8781a;
+
+  @apply text-[18px] text-[#c8781a]
 }
 
 .task p {
-  padding: 0.5rem 0 0.75rem;
-  font-size: 14px;
-  color: #444;
+
+  @apply pt-[0.5rem] pb-[0.75rem] text-[#444] text-[14px];
 }
 
 .task button {
-  display: block;
-  padding: 8px 12px;
-  margin-left: auto;
-  background-color: #fecc91;
-  box-shadow: 0 4px 5px 0 rgb(0 0 0 / 5%);
-  border-radius: 3px;
   border: 0;
   cursor: pointer;
+
+  @apply block py-[8px] px-[12px] ml-auto bg-[#fecc91] shadow-task-btn rounded-[3px] ;
 }
 
 .pill {
