@@ -7,7 +7,7 @@ const Task = ({ taskObj, onComplete }) => {
 
     function getClassNameBgColor(date) {
         const diffDay = differenceInDays(date , new Date());
-        return diffDay > 3 ? "normal" : "urgent";
+        return diffDay > 3 ? "bg-[#d4d7ff]" : "bg-[#ffd9d4]";
     }
 
     const deadlineInDate = new Date(taskObj.deadline)
