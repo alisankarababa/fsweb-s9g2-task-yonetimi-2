@@ -76,8 +76,8 @@
 }
 
 .deadline {
-  font-size: 12px;
-  padding-top: 4px;
+
+  @apply text-[12px] pt-[4px];
 }
 
 .deadline span {
